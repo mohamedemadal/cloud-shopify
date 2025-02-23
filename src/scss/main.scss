@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'vuestic-sass/index';
+@import 'icon-fonts/index';
+
+html {
+  line-height: 1.15;
+}
+
+body {
+  line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family: monospace;
+  font-size: 1em;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.va-sidebar__menu {
+  background-color: #f5f6fb;
+  box-shadow: 4px 4px 4px rgb(158, 156, 156);
+}
+canvas {
+  height: 500px !important;
+  width: 90%;
+}
+.p-progressbar {
+  height: 30px !important;
+}
+.p-progressbar-value {
+  background-color: #24b2fc !important;
+}
