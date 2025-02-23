@@ -8,6 +8,8 @@
         <el-progress :percentage="0" class="progress-bar"></el-progress>
       </section>
 
+
+
       <section class="task-cards">
         <div class="card">
           <h3>Product Labels</h3>
